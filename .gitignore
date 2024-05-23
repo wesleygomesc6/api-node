@@ -2,5 +2,6 @@ node_modules
 
 # Banco de dados SQLite
 db/app.db
+db/test.db
 
 .env
