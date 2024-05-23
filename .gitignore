@@ -1,7 +1,12 @@
+# Módulos
 node_modules
 
 # Banco de dados SQLite
-db/app.db
-db/test.db
+db/*.db
 
+# Variáveis ambiente
 .env
+
+# Builds
+dist
+build
