@@ -1,9 +1,9 @@
-import { app } from "./app"
-import { env } from "./env"
+import { app } from './app'
+import { env } from './env'
 app
   .listen({
     port: env.PORT,
   })
   .then(() => {
-    console.log('Running Http server.')
+    console.log(`Runninh HTTP server on port: ${env.PORT}`)
   })
